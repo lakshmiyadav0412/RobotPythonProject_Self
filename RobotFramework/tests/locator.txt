@@ -1,0 +1,15 @@
+Strategy	Match based on	Example
+id	Element id.	id:example
+name	name attribute.	name:example
+identifier	Either id or name.	identifier:example
+class	Element class.	class:example
+tag	Tag name.	tag:div
+xpath	XPath expression.	xpath://div[@id="example"]
+css	CSS selector.	css:div#example
+dom	DOM expression.	dom:document.images[5]
+link	Exact text a link has.	link:The example
+partial link	Partial link text.	partial link:he ex
+sizzle	Sizzle selector deprecated.	sizzle:div.example
+data	Element data-* attribute	data:id:my_id
+jquery	jQuery expression.	jquery:div.example
+default	Keyword specific default behavior.	default:example
